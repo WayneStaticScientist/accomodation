@@ -8,5 +8,8 @@ export default interface User {
     phone: string;
     address: string;
     city: string;
+    idNumber: string;
+    documents: string;
+    profile: string;
     country: string;
 }

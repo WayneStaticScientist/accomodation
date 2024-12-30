@@ -12,6 +12,8 @@
     "@djthoms/pretty-checkbox": "^3.1.0",
     "@fontsource/cedarville-cursive": "^5.1.0",
     "@fontsource/mulish": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^6.12.0",
     "next": "15.1.0",
     "next-auth": "^4.24.11",
     "pretty-checkbox-react": "^3.2.0",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
