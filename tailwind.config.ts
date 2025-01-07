@@ -13,9 +13,12 @@ export default {
         foreground: "var(--foreground)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        cards: "var(--cards)",
+        navbar: "var(--navbar)",
+        theme: "var(--theme)"
       },
       backgroundImage: {
-        'hero': "url('/bg.avif')",
+        'hero': "url('/people.jpg')",
       }
     },
   },

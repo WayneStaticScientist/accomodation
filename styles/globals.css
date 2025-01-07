@@ -3,22 +3,30 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #F0F2F5;
   --foreground: #171717;
-  --primary : #00ABBD;
-  --secondary : #062931;
+  --primary: #00ABBD;
+  --secondary: #062931;
+  --navbar: #1F283E;
+  --cards: #ffffff;
+  --theme: #ffffff;
 }
-.cursive{
+
+.cursive {
   font-family: "Cedarville Cursive";
 }
+
 .mulish {
   font-family: "Mulish";
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1A2035;
     --foreground: #ffffff;
+    --theme: #000000;
+    --navbar: #1F283E;
+    --cards: #202940;
   }
 }
 

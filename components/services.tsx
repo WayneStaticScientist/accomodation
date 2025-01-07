@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Services: FC<SharedProps> = ({ className }) => {
     return (
-        <div className={`${className} flex flex-col items-center text-background`}>
+        <div className={`${className} flex flex-col items-center `}>
             <span className='text-4xl  font-extralight'>Our Other Services</span>
             <div className='grid grid-cols-4 mt-12'>
                 <div className='col-span-1 text-xs flex flex-col gap-y-2 h-full m-3 hover:scale-105 transition-all font-extrabold'>

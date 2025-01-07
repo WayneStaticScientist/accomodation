@@ -7,7 +7,7 @@ export const Panel: FC<SharedProps> = ({ className }) => {
     const [girls, setGirls] = useState(false)
     const [mixed, setMixed] = useState(true)
     return (
-        <div className={`w-fit flex flex-col bg-foreground text-background p-5 rounded-xl ${className} select-none`}>
+        <div className={`w-fit flex flex-col bg-background  p-5 rounded-xl ${className} select-none`}>
             <div className='text-2xl'>LOOKING FOR </div>
             <div className='text-primary text-2xl font-semibold'>ACCOMODATION</div>
             <div className='text-xs mt-5 mb-3'>Find with price range</div>
